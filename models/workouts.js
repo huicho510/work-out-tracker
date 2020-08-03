@@ -2,6 +2,10 @@ const mongoose = require("mongoose");
 const Schema = mongoose.Schema;
 
 const workoutSchema = new Schema({
+    day: {
+       type: Date,
+       default: () => new Date()
+     },
     type: {
         type: String,
         trim: true,
@@ -24,9 +28,17 @@ const workoutSchema = new Schema({
     },
     sets: {
         type: Number,
+    },
+    distance: {
+        type: Number,
     }
-
-})
+},
+{
+    toJSON: {
+        virtuals:true
+    }
+}
+);
 
 const Workout = mongoose.model("Workout", workoutSchema);
 
