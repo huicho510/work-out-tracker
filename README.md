@@ -26,16 +26,20 @@ For this project, I was provided with the front end code and was tasked with cre
 ### Backend technologies
 
 * Node.js (https://nodejs.org/en/)
-* MySQL (https://www.mysql.com/)
+* MongoDB
 * Express (http://expressjs.com/)
-* ORM - Object Relational Mapping (https://en.wikipedia.org/wiki/Object-relational_mapping)
+
 
 ### Frontend technologies
 
 * HTML
 * CSS
-* Bootstrap (http://getbootstrap.com/)
 * Javascript
-* jQuery (https://jquery.com/)
-* Handlebars (http://handlebarsjs.com/)
 
+## Screenshot
+
+![image](https://user-images.githubusercontent.com/59625096/91644949-cfc0cd80-e9f5-11ea-8ea7-052427cdb492.png)
+
+![image](https://user-images.githubusercontent.com/59625096/91644971-f5e66d80-e9f5-11ea-8f9f-3ad37552d5a7.png)
+
+![image](https://user-images.githubusercontent.com/59625096/91644979-04cd2000-e9f6-11ea-8ea8-c016dca0ed74.png)
