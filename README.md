@@ -16,7 +16,7 @@ A fitness app that allows the user to view, create, and track daily workouts. Th
 
 ## Heroku 
 
- [Deployed-app] (https://fitness-tracker-3.herokuapp.com/)
+ [Deployed-app](https://fitness-tracker-3.herokuapp.com/)
 
 ## About
 For this project, I was provided with the front end code and was tasked with creating a Mongo database with a Mongoose schema and handle routes with Express.
