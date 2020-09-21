@@ -34,9 +34,9 @@ const workoutSchema = new Schema(
         },
         distance: {
           type: Number,
-        }
-      }
-    ]
+        },
+      },
+    ],
   },
   {
     toJSON: {
@@ -46,10 +46,10 @@ const workoutSchema = new Schema(
 );
 
 workoutSchema.virtual("totalDuration").get(function () {
-    return this.exercises.reduce(function (total, exercise) {
-      return total + exercise.duration;
-    }, 0);
-  });
+  return this.exercises.reduce(function (total, exercise) {
+    return total + exercise.duration;
+  }, 0);
+});
 
 const Workout = mongoose.model("Workout", workoutSchema);
 
